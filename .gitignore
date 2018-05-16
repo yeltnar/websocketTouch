@@ -1,0 +1,14 @@
+node_modules
+config/local.json
+public/all fields
+angular-seed/app/bower_components
+libs
+private
+*.zip
+/.*
+!.gitignore
+!.bowerrc
+!.project
+!.settings
+
+package-lock.json

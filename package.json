@@ -1,0 +1,20 @@
+{
+  "name": "gov-lab-2018-node",
+  "version": "1.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "clear;node app.js",
+    "start": "pm2 start app.js;pm2 logs"
+  },
+  "author": "Andrew Brantley, Susan Christian",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.30.0",
+    "express": "^4.16.2",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "socket.io": "^2.0.4",
+    "ws": "^5.0.0"
+  }
+}
